@@ -12,7 +12,7 @@
   --white: #f9f9f9;
 
   /* typography variables */
-  --typography-font-family-primary: 'Poppins';
+  --typography-font-family-primary: 'Poppins', Arial, sans-serif;
   --typography-font-weight-bold: 700;
   --typography-font-weight-regular: 400;
   --typography-font-size-62: 3.875rem;
