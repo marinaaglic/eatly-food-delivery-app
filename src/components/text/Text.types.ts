@@ -26,5 +26,5 @@ export interface ITextProps extends React.HTMLAttributes<HTMLElement> {
   children: React.ReactNode
   className?: string
   component?: TextComponent
-  color: TextColor
+  color?: TextColor
 }

@@ -40,3 +40,23 @@
 .tab-inactive {
   @include generate-text-class('tab-inactive');
 }
+
+.primary-dark {
+  color: var(--primary-dark);
+}
+
+.primary-light {
+  color: var(--primary-light);
+}
+
+.secondary {
+  color: var(--secondary-gray);
+}
+
+.tertiary {
+  color: var(--tertiary-gray);
+}
+
+.brand {
+  color: var(--brand-color);
+}
