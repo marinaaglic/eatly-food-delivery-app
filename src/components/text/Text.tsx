@@ -6,11 +6,12 @@ export default function Text({
   children,
   className,
   component = 'span',
+  color = 'primary-dark',
   ...rest
 }: ITextProps) {
   const Tag = component
   return (
-    <Tag className={`${styles[size]} ${className}`} {...rest}>
+    <Tag className={`${styles[size]} ${styles[color]} ${className}`} {...rest}>
       {children}
     </Tag>
   )
