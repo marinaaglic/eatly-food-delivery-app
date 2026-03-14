@@ -15,23 +15,23 @@
   --typography-font-family-primary: 'Poppins', Arial, sans-serif;
   --typography-font-weight-bold: 700;
   --typography-font-weight-regular: 400;
-  --typography-font-size-62: 3.875rem;
-  --typography-font-size-32: 2rem;
-  --typography-font-size-24: 1.5rem;
-  --typography-font-size-20: 1.25rem;
-  --typography-font-size-16: 1rem;
-  --typography-font-size-14: 0.875rem;
-  --typography-font-size-12: 0.75rem;
-  --letter-spacing-spacing-0: 0px;
-  --letter-spacing-spacing-1-86: -1.86px;
-  --letter-spacing-spacing-0-48: -0.48px;
-  --letter-spacing-spacing-0-42: -0.42px;
-  --letter-spacing-spacing-0-35: -0.35px;
-  --letter-spacing-spacing-0-32: -0.32px;
-  --line-height-small: 1;
-  --line-height-regular: 1.4;
-  --line-height-medium: 1.6;
-  --line-height-tight: 1.2;
+  --typography-heading-large-font-size: 3.875rem;
+  --typography-heading-medium-font-size: 2rem;
+  --typography-heading-small-font-size: 1.5rem;
+  --typography-paragraph-large-font-size: 1.25rem;
+  --typography-paragraph-medium-font-size: 1rem;
+  --typography-paragraph-small-font-size: 0.875rem;
+  --typography-paragraph-xs-font-size: 0.75rem;
+  --typography-extra-large-letter-spacing-spacing-1-86: -1.86px;
+  --typography-large-letter-spacing-spacing-0-48: -0.48px;
+  --typography-medium-letter-spacing-spacing-0-42: -0.42px;
+  --typography-small-spacing-spacing-0-35: -0.35px;
+  --typography-extra-small-spacing-spacing-0-32: -0.32px;
+  --typography-xxs-letter-spacing-spacing-0: 0px;
+  --typography-small-line-height: 1;
+  --typography-regular-line-height: 1.4;
+  --typography-medium-line-height: 1.6;
+  --typography-tight-line-height: 1.2;
 
   /* corner radius */
   --corner-radius-4: 4px;
@@ -40,6 +40,7 @@
   --corner-radius-16: 16px;
   --corner-radius-20: 20px;
   --corner-radius-24: 24px;
+  --corner-radius-full: 50%;
 
   /* spacing fixed */
   --spacing-fixed-4: 4px;
