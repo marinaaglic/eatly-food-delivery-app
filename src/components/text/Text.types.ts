@@ -12,7 +12,17 @@ export type TextSize =
   | 'tab-inactive'
   | 'tab'
 
-export type TextComponent = 'h1' | 'h2' | 'h3' | 'p' | 'span' | 'div'
+export type TextComponent =
+  | 'h1'
+  | 'h2'
+  | 'h3'
+  | 'h4'
+  | 'h5'
+  | 'h6'
+  | 'figcaption'
+  | 'p'
+  | 'span'
+  | 'div'
 
 export type TextColor =
   | 'primary-dark'

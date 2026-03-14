@@ -1,17 +1,18 @@
 import { ITextProps } from './Text.types'
 import styles from './Text.module.scss'
+import clsx from 'clsx'
 
 export default function Text({
   size,
   children,
   className,
-  component = 'span',
+  component = 'p',
   color = 'primary-dark',
   ...rest
 }: ITextProps) {
   const Tag = component
   return (
-    <Tag className={`${styles[size]} ${styles[color]} ${className}`} {...rest}>
+    <Tag className={clsx(styles[size], styles[color], className)} {...rest}>
       {children}
     </Tag>
   )

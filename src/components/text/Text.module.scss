@@ -3,9 +3,11 @@
 .h1 {
   @include generate-text-class('h1');
 }
+
 .h2 {
   @include generate-text-class('h2');
 }
+
 .h3 {
   @include generate-text-class('h3');
 }
@@ -13,6 +15,7 @@
 .default-strong {
   @include generate-text-class('default-strong');
 }
+
 .default-regular {
   @include generate-text-class('default-regular');
 }
@@ -20,6 +23,7 @@
 .medium-strong {
   @include generate-text-class('medium-strong');
 }
+
 .small-strong {
   @include generate-text-class('small-strong');
 }
@@ -27,6 +31,7 @@
 .label-default {
   @include generate-text-class('label-default');
 }
+
 .label-small {
   @include generate-text-class('label-small');
 }
@@ -34,9 +39,11 @@
 .tab {
   @include generate-text-class('tab');
 }
+
 .tab-active {
   @include generate-text-class('tab-active');
 }
+
 .tab-inactive {
   @include generate-text-class('tab-inactive');
 }
