@@ -1,0 +1,7 @@
+@mixin generate-text-class($name) {
+  font-size: var(--typography-#{$name}-font-size);
+  font-weight: var(--typography-#{$name}-font-weight);
+  line-height: var(--typography-#{$name}-line-height);
+  letter-spacing: var(--typography-#{$name}-letter-spacing);
+  font-family: var(--typography-#{$name}-font-family);
+}
